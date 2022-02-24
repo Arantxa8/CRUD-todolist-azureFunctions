@@ -26,5 +26,5 @@
       "partitionKey": "/userId"
     }
   ],
-  "scriptFile": "../dist/todolist-azure/index.js"
+  "scriptFile": "../dist/CreateTodoItem/index.js"
 }
