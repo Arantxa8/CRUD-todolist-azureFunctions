@@ -14,6 +14,7 @@ function getCosmosDbContainer() {
 export async function getAllTodoItems(userId: string): Promise<TodoItemRecord[]> {
     const querySpec = {
         query: `SELECT * from c WHERE c.userId = '${userId}'` 
+        
       };
       
     const container = getCosmosDbContainer();
